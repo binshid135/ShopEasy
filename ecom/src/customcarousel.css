@@ -1,0 +1,9 @@
+.carousel-indicators li {
+    background-color: #ed1313 !important; /* Change to your desired color */
+    width: 12px !important; /* Customize width */
+    height: 12px !important; /* Customize height */
+    border-radius: 50% imo !important; /* Make them round */
+  }
+  .carousel-indicators li:hover {
+    background-color: #777; /* Change to your desired hover color */
+  }

@@ -1,0 +1,49 @@
+.pro-nav{
+    color: rgb(122, 138, 167);
+    font-size: 13px;
+    
+}
+.nav-items{
+    display: inline;
+    float: left;
+    
+}
+.nav-text{
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+.nav-text:hover{
+    background-color:rgb(249, 130, 104) ;
+    color: white;
+}
+
+.complaint-inputs{
+    border: 0.2px solid;
+    border-color:rgb(229, 229, 229);
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.cart-shop-name{
+    color: rgb(158, 158, 158);
+    font-size: 22px;
+    font-weight: 300;
+}
+.qty-box{
+    border: 2px solid;
+    border-color:rgb(229, 229, 229);
+    padding-left: 15px;
+    color: rgb(158, 158, 158);
+}
+.sub-total{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-top-color:  rgb(229, 229, 229) ;
+    border-bottom-color:  rgb(229, 229, 229) ;
+    color: rgb(249, 130, 104);
+}
+
+.cng-qt-div{
+    margin-top: -7px;
+}
+

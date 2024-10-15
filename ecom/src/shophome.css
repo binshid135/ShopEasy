@@ -1,0 +1,117 @@
+.bdbg{
+    background-color: rgb(239, 226, 219);
+    height: 80vh;
+}
+
+.custom-navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .custom-navbar .navbar-collapse {
+    justify-content: center;
+  }
+  .add-pro-btn{
+    background-color: rgb(213, 151, 126);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+  .add-pro-btn:hover{
+    background-color: rgb(247, 174, 145);
+  }
+
+  .down-nav-row{
+    margin-top: -30px;
+  }
+
+  .side-image{
+    margin-top: 50px;
+  }
+
+  .add-inputs{
+    border: 1px solid;
+    border-color: rgb(222, 218, 217);
+    border-radius: 20px;
+    width: 440px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+  }
+
+  @media(max-width:1271px){
+    .sd-img{
+      width:650px;
+      height: 450px;
+    }
+  }
+
+  @media(max-width:992px){
+    .side-image{
+      display: none;
+    }
+    .down-nav-row{
+      position: absolute;
+      bottom: 0; 
+      margin-bottom: 60px;
+    }
+    .bdbg{
+      height: 70vh;
+    }
+  }
+@media(max-width:576px){
+  .down-nav-row{
+    font-size: 2px;
+    background-color: rgb(239, 226, 219);
+  }
+  .down-nav-items{
+    border-bottom: 1px solid;
+    border-bottom-color:white ;
+    padding-top:5px;
+    padding-bottom: 5px;
+    
+  }
+  .bdbg{
+    height: 100vh;
+  }
+}
+
+
+
+/* fonts */
+  .bokor-regular {
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+  }
+  .matemasie-regular {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .edu-au-vic-wa-nt-hand-sub {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .akshar-font {
+    font-family: "Akshar", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+  /* fonts */
+  
+  

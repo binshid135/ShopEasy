@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-primary-subtle mt-3">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 11.5cm;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/user/userhome">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/user/userview">view profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user/replied">messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user/ordered">your orders</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="/user/cart">cart</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/user/login">log out</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <center>
+                <div class="col-lg-8 mt-4">
+                    <table class="table table-primary table-striped table-borderless">
+                        <thead>
+                            <tr>
+                                <th colspan="2"
+                                    style="text-align: center; font-family: 'Times New Roman', Times, serif;">
+                                    USER DETAILS <a href="/user/edituser/<%= data._id %>" style="position:absolute;right: 6cm">edit details</a></th>
+                            </tr>
+                        </thead>
+                        <tbody class="ps-3">
+                            <tr>
+                                <td>name</td>
+                                <td>
+                                    <%= data.name %>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>password</td>
+                                <td>
+                                    <a class="" href="/user/changepassword">change password</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>number</td>
+                                <td>
+                                    <%= data.mobile %>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>age</td>
+                                <td>
+                                    <%= data.age %>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>gender</td>
+                                <td>
+                                    <%= data.gender %>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

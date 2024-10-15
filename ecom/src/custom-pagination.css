@@ -1,0 +1,32 @@
+.custom-pagination {
+    display: flex;
+    /* justify-content: center; */
+    margin: 30px 30px;
+    
+}
+
+.custom-pagination .page-item {
+    margin: 0 0px;
+    border-radius: 0px;
+}
+
+.custom-pagination .page-link {
+    border-radius: 0px;
+    background-color: white;
+    color:rgb(170, 170, 170);
+    padding: 7px 12px;
+    border-color:rgb(229, 229, 229);
+    font-weight: 400;
+}
+
+.custom-pagination .page-link:hover {
+    background-color: #e9ecef;
+    color: rgb(255, 144, 140);
+}
+
+.custom-pagination .active .page-link {
+    background-color: white;
+    color:rgb(255, 144, 140);
+    font-weight: 600;
+    /* border: none; */
+}

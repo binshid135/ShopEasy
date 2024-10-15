@@ -1,0 +1,44 @@
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next{
+    display:none
+}
+
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background: white; /* Background color */
+  color: black;         /* Text color */
+  border: none;        /* Remove default border */
+  font-size: 24px;     /* Font size */
+  width: 40px;         /* Button width */
+  height: 40px;        /* Button height */
+  border-radius: 50%;  /* Make buttons circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background 0.3s; /* Smooth background color transition */
+}
+
+/* Position previous and next buttons */
+.owl-carousel .owl-nav button.owl-prev {
+  left: -60px; /* Position from the left */
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  right: 10px; /* Position from the right */
+}
+
+/* Optional: Hover effect for navigation buttons */
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+  background:rgb(213, 151, 126); /* Darker background color on hover */
+}
+
+
+  
+  
+
+

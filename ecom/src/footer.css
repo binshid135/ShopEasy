@@ -1,0 +1,20 @@
+.footer-row{
+    border-top: 1.5px solid;
+    border-top-color: rgb(229, 229, 229);
+}
+.head{
+    color: rgb(249, 130, 104);
+    font-size: 16px;
+    font-weight: 400;
+}
+.subs{
+    color:rgb(153, 153, 153);
+    font-weight: 400;
+    font-size: 13px;
+}
+.subs-text{
+    cursor: pointer;
+}
+.subs-text:hover{
+    color: rgb(249, 130, 104);
+}

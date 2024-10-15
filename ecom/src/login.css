@@ -1,0 +1,65 @@
+.login-bg{
+    background-color:rgb(255, 216, 227);
+    height: 200vh;
+}
+
+.lg1{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+    box-shadow: 5px 5px 10px 5px rgb(232, 98, 109) inset;
+}
+.lg2{
+    background-color: rgb(232, 98, 109);
+    padding-top: 125px;
+    padding-bottom: 100px;
+    /* filter: drop-shadow(15px 15px 15px white); */
+}
+.rw{
+    padding-top: 6rem;
+     
+}
+.sgin{
+    font-size: 30px;
+    font-weight: 700;
+}
+.fldr{
+    width:350px;
+    background-color: rgb(245, 246, 248);
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    height:40px
+}
+.lbt{
+    width: 350px;
+    background-color: rgb(232, 98, 109);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    height: 40px;
+}
+.lbt:hover{
+    background-color: rgb(249, 115, 126);
+}
+.lbl{
+    font-size: 10px;
+    font-weight:700;
+}
+.wl{
+    color: white;
+    font-weight: 600;
+}
+.sbt{
+    border-color: white;
+    color: white;
+    background-color:rgb(232, 98, 109) ;
+    border:2px solid;
+    border-radius: 40px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    width: 100px;
+}
+.sbt:hover{
+    border: 3px solid;
+    background-color:rgb(249, 115, 126)  ;
+}
